@@ -1,0 +1,102 @@
+# Feynsinn files #################
+*.exe filter=lfs diff=lfs merge=lfs -text
+*.png filter=lfs diff=lfs merge=lfs -text
+*.bin filter=lfs diff=lfs merge=lfs -text
+*.pak filter=lfs diff=lfs merge=lfs -text
+*.uexp filter=lfs diff=lfs merge=lfs -text
+*.ubulk filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
+*.wav filter=lfs diff=lfs merge=lfs -text
+*.mp3 filter=lfs diff=lfs merge=lfs -text
+*.psd filter=lfs diff=lfs merge=lfs -text
+*.bmp filter=lfs diff=lfs merge=lfs -text
+*.mb filter=lfs diff=lfs merge=lfs -text
+*.catpart filter=lfs diff=lfs merge=lfs -text
+*.dll filter=lfs diff=lfs merge=lfs -text
+*.unitypackage filter=lfs diff=lfs merge=lfs -text
+*.ogg filter=lfs diff=lfs merge=lfs -text
+*.fbx filter=lfs diff=lfs merge=lfs -text
+*.dae filter=lfs diff=lfs merge=lfs -text
+*.3ds filter=lfs diff=lfs merge=lfs -text
+*.obj filter=lfs diff=lfs merge=lfs -text
+*.dds filter=lfs diff=lfs merge=lfs -text
+*.tif* filter=lfs diff=lfs merge=lfs -text
+*.so filter=lfs diff=lfs merge=lfs -text
+*.gif filter=lfs diff=lfs merge=lfs -text
+*.woff filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.fft filter=lfs diff=lfs merge=lfs -text
+*.afm filter=lfs diff=lfs merge=lfs -text
+*.eot filter=lfs diff=lfs merge=lfs -text
+*.frm filter=lfs diff=lfs merge=lfs -text
+*.myd filter=lfs diff=lfs merge=lfs -text
+*.myi filter=lfs diff=lfs merge=lfs -text
+*.MYI filter=lfs diff=lfs merge=lfs -text
+*.MYD filter=lfs diff=lfs merge=lfs -text
+*.ibd filter=lfs diff=lfs merge=lfs -text
+*.csm filter=lfs diff=lfs merge=lfs -text
+*.sys filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
+*.avi filter=lfs diff=lfs merge=lfs -text
+*.mkv filter=lfs diff=lfs merge=lfs -text
+*.vpb filter=lfs diff=lfs merge=lfs -text
+*.exr filter=lfs diff=lfs merge=lfs -text
+*.wmv filter=lfs diff=lfs merge=lfs -text
+*.zip filter=lfs diff=lfs merge=lfs -text
+*.rar filter=lfs diff=lfs merge=lfs -text
+*.7z filter=lfs diff=lfs merge=lfs -text
+*.tar filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.pyc filter=lfs diff=lfs merge=lfs -text
+*.egg filter=lfs diff=lfs merge=lfs -text
+*.hdr filter=lfs diff=lfs merge=lfs -text
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.woff* filter=lfs diff=lfs merge=lfs -text
+*.eot filter=lfs diff=lfs merge=lfs -text
+*.ttf filter=lfs diff=lfs merge=lfs -text
+*.mmap filter=lfs diff=lfs merge=lfs -text
+*.gz filter=lfs diff=lfs merge=lfs -text
+*.gzip filter=lfs diff=lfs merge=lfs -text
+*.tar* filter=lfs diff=lfs merge=lfs -text
+*.docx filter=lfs diff=lfs merge=lfs -text
+*.pptx filter=lfs diff=lfs merge=lfs -text
+*.xlsx filter=lfs diff=lfs merge=lfs -text
+*.jt filter=lfs diff=lfs merge=lfs -text
+*.catpart filter=lfs diff=lfs merge=lfs -text
+*.pdb filter=lfs diff=lfs merge=lfs -text
+*.pch filter=lfs diff=lfs merge=lfs -text
+*.lib filter=lfs diff=lfs merge=lfs -text
+*.mov filter=lfs diff=lfs merge=lfs -text
+*.glb filter=lfs diff=lfs merge=lfs -text
+ 
+ 
+# Unreal recommendation von https://github.com/ProjectBorealis/Base-Project/blob/main/.gitattributes
+[attr]lock filter=lfs diff=lfs merge=binary -text lockable
+[attr]lfs filter=lfs diff=lfs merge=binary -text
+# Unreal Engine file types.
+*.uasset lock
+*.umap lock
+*.locres lfs
+*.locmeta lfs
+# Steam Audio files
+*.phononscene lfs
+*.probebox lfs
+*.probebatch lfs
+*.bakedsources lfs
+# Binaries
+*.exe lfs
+*.dll lfs
+# FMOD
+*.bank lfs
+*.wav lfs
+*.mp3 lfs
+*.ogg lfs
+*.flac lfs
+# Icons
+*.png lfs
+*.ico lfs
+*.icns lfs
+# Movies
+*.webm lfs
+*.mp4 lfs
+*.wmv lfs
